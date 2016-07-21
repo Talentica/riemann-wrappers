@@ -9,11 +9,11 @@
 
 ## Description
 
-In order to forward the Riemann events to AWS CloudWatch, Riemann provides  `(cloudwatch {})` function.
+* In order to forward the Riemann events to AWS CloudWatch, Riemann provides  `(cloudwatch {})` function.
 
 ## Usage
 
-In case of Access Credentials
+* In case of Access Credentials
 
 ```
 (cloudwatch {
@@ -25,7 +25,7 @@ In case of Access Credentials
   })
 ```
 
-In case of IAM Role
+* In case of IAM Role
 
 ```
 (cloudwatch {
@@ -35,8 +35,6 @@ In case of IAM Role
   })
 ```
 
-IAM Policy for Role
-
-Following policy should be applied to role to allow Riemann to send event to Cloudwatch.
+* Following policy should be applied to role to allow Riemann to send event to Cloudwatch.
 
 [ cloudwatch_riemann_policy.json ](cloudwatch_riemann_policy.json)

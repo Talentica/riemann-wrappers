@@ -7,11 +7,11 @@
 
 ## Description
 
-Riemann `2.11` provides API to communicate with the Slack communication platform.
+* Riemann `2.11` provides API to communicate with the Slack communication platform.
 
 ## Usage
 
-In order to post the alerts/updates to your Slack channel via Slack API, Riemann requires following things for Authentication and Authorization
+* In order to post the alerts/updates to your Slack channel via Slack API, Riemann requires following things for Authentication and Authorization
 
 1. Slack Account Name : Slack Account name is name of your organization registered with Slack.
 2. Slack Webhook Token : Token is the last context of your Slack Webhook URI

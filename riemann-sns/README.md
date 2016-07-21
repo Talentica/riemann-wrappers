@@ -9,11 +9,11 @@
 
 ## Description
 
-In order to forward the Riemann events to AWS SNS Topic, Riemann provides  `(sns-publisher {})` function.
+* In order to forward the Riemann events to AWS SNS Topic, Riemann provides  `(sns-publisher {})` function.
 
 ## Usage
 
-In case of Access Credentials
+* In case of Access Credentials
 
 ```
 (sns-publisher {
@@ -24,7 +24,7 @@ In case of Access Credentials
   })
 ```
 
-In case of IAM Role
+* In case of IAM Role
 
 ```
 (sns-publisher {
@@ -33,8 +33,7 @@ In case of IAM Role
   })
 ```
 
-IAM Policy for Role
 
-Following policy should be applied to role to allow Riemann to send event to SNS.
+* Following policy should be applied to role to allow Riemann to send event to SNS.
 
 [ sns_riemann_policy.json ](sns_riemann_policy.json)
