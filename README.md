@@ -1,6 +1,6 @@
 # Riemann-Wrappers
 
-The repository contains the examples on how to integrate Riemann network monitoring system with popular tools and frameworks.
+The repository contains the examples on how to integrate Riemann network monitoring and event processing system with popular tools and frameworks.
 
 
 
